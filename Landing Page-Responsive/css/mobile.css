@@ -1,0 +1,16 @@
+#navbar{
+    flex-direction: column;/*navbar içindeki h1 ile a lar alt alta geldi.*/
+    padding-top:0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden; /*Taşma kırpılır ve içeriğin geri kalanı görünmez olur.*/
+    height: 80px;
+}
+#training .items{
+    flex-direction: column;
+}
+#training .items .item{
+    width: 100%;
+}
+.courses .course{
+    flex-direction: column;
+}
