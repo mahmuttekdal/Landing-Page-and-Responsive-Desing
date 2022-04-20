@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmut Tekdal</title>
+    <meta name="keywords" content="JavaScript,Css,Responsive"/>
+    <meta
+    name="description"
+    content="Mahmut Tekdal"/>
+    <!--Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+<!--Font Awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/main.css">
+<!--Tablet ve Telefon-->
+<link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+<link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Mahmut Tekdal</h1>
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#training">Eğitimler</a></li>
+                    <li><a href="#courses">Kurslar</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+       
+    </header>
+
+    <section id="home">
+        <img src="images/profile-pic (3).png" alt="Mahmut Tekdal">
+        <div class="name text-center">
+            <h2 class="heading-big">Mahmut Tekdal</h2>
+            <p>
+                Mathematics and Computer Science</p>
+        </div>
+        <a href="#courses" class="btn btn-primary btn-block">Kurslara Git</a>
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+
+           <h3 class="text-center heading medium">Eğitimler</h3>
+           <div class="items">
+               <article class="item">
+                   <i class="fa fa-pencil-alt"></i>
+                   <h3>Lisans Eğitimleri</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, eius.</p>
+               </article>
+               <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Online Eğitimler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, molestias?</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Sınıf İçi Eğitimler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, excepturi.</p>
+            </article>
+           </div>
+
+    </section>
+    <section id="courses">
+        <h3 class="text-center heading-medium">Kurslar</h3>
+
+        <div class="containe">
+            <div class="courses">
+                <!--Course1-->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/java.jpeg" alt="Java">
+                        <span><img src="images/kurdele.png" alt="Ödüllü"></span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            (40+ Saat) | Sıfırdan İleri Seviye Programlama
+                        </div>
+                        <div class="description">(40+ Saat) | Sıfırdan İleri Seviye Programlama</div>
+                        <div class="instructor">Engin Demiroğ , Yazılım Bİlimleri</div>
+                        <div class="rating">Btk Akademi</div>
+                    </div>
+                </div>
+                <!--Course2-->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/Javascript.jpg" alt="JavaScript">
+                        <span><img src="images/kurdele.png" alt="Ödüllü"></span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                           (40+ Saat) | Sıfırdan İleri Seviye Programlama
+                        </div>
+                        <div class="description">(40+ Saat) | Sıfırdan İleri Seviye Programlama</div>
+                        <div class="instructor">MUstafa Murat Coşkun , Yazılım Bilimi</div>
+                        <div class="rating">Udemy</div>
+                    </div>
+                </div>
+                <!--Course3-->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/sqlserver.png" alt="SqlServer">
+                        <span><img src="images/kurdele.png" alt="Ödüllü"></span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            (40+ Saat) |Uygulamarla Sıfırdan İleri Seviye 
+                        </div>
+                        <div class="description">(40+ Saat) |Uygulamarla Sıfırdan İleri Seviye Sql</div>
+                        <div class="instructor">Ömer Çolakoğlu , Veri Bilimi</div>
+                        <div class="rating">Btk Akademi</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+                <!--1-->
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input type="text"
+                     class="form-control"
+                     name="name" 
+                     id="name"
+                     placeholder="İsim">
+                </div>
+                <!--2-->
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text"
+                     class="form-control"
+                     name="email" 
+                     id="email"
+                     placeholder="E-Mail">
+                </div>
+                <!--3-->
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea name="message"
+                     id="message"
+                     class="form-control" 
+                     rows="5"
+                     placeholder="Mesajınız..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-block" style="font-weight: bolder;">Gönder</button>
+            </form>
+            <!--Sosyal Medya İkonları-->
+          <ul>
+              <li>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+             </li>
+                 <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+               </li>
+                 <li>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+             </li>
+          </ul>  
+        </div>
+    </footer>
+</body>
+</html>
